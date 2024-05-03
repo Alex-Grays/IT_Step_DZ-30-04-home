@@ -1,5 +1,7 @@
 .navbar {
   background-color: #2179d8;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 
 .navbar-nav {
@@ -184,6 +186,11 @@ h3 br {
 }
 
 @media (max-width: 767px) {
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .col-md-12 {
     flex: 0 0 100%;
     max-width: 100%;
